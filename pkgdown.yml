@@ -4,7 +4,7 @@ pkgdown_sha: ~
 articles:
   hypogen: hypogen.html
   hypogen_genotype_frequncies: hypogen_genotype_frequncies.html
-last_built: 2021-04-09T14:55Z
+last_built: 2021-04-12T08:02Z
 urls:
   reference: https://k-hench.github.io/hypogen//reference
   article: https://k-hench.github.io/hypogen//articles

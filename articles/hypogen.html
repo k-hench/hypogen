@@ -148,14 +148,14 @@ img {
                     <span class="fu"><a href="https://rdrr.io/r/base/Trig.html">cos</a></span><span class="op">(</span><span class="va">x</span><span class="op">/</span><span class="fl">200000000</span><span class="op">*</span><span class="fl">2</span><span class="op">*</span><span class="va">pi</span><span class="op">+</span><span class="fl">.2</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span> <span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">rnorm</a></span><span class="op">(</span><span class="fl">1000</span><span class="op">)</span><span class="op">)</span>
 <span class="va">test_df</span> <span class="op">%&gt;%</span> <span class="va">head</span>
 <span class="co">#&gt; # A tibble: 6 x 4</span>
-<span class="co">#&gt;          x CHROM grp        y</span>
-<span class="co">#&gt;      &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt;  &lt;dbl&gt;</span>
-<span class="co">#&gt; 1       1  LG01  sin   -0.619</span>
-<span class="co">#&gt; 2 1121543. LG01  sin   -0.108</span>
-<span class="co">#&gt; 3 2243086. LG01  sin   -1.09 </span>
-<span class="co">#&gt; 4 3364628. LG01  sin    0.269</span>
-<span class="co">#&gt; 5 4486171. LG01  sin   -0.334</span>
-<span class="co">#&gt; 6 5607713. LG01  sin    0.830</span></code></pre></div>
+<span class="co">#&gt;          x CHROM grp         y</span>
+<span class="co">#&gt;      &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt;   &lt;dbl&gt;</span>
+<span class="co">#&gt; 1       1  LG01  sin   -0.449 </span>
+<span class="co">#&gt; 2 1121543. LG01  sin   -0.703 </span>
+<span class="co">#&gt; 3 2243086. LG01  sin    0.657 </span>
+<span class="co">#&gt; 4 3364628. LG01  sin    0.994 </span>
+<span class="co">#&gt; 5 4486171. LG01  sin   -1.68  </span>
+<span class="co">#&gt; 6 5607713. LG01  sin    0.0255</span></code></pre></div>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">ggplot</span><span class="op">(</span><span class="op">)</span> <span class="op">+</span>
   <span class="fu"><a href="../reference/geom_hypo_LG.html">geom_hypo_LG</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span>
